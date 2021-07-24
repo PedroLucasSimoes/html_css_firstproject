@@ -1,0 +1,70 @@
+body {
+				background: linear-gradient(120deg, #2980b9, #8e44ad)
+}
+
+.center {
+				background-color: #f2f2f2;
+				padding: 10px;
+				justify-content: center;
+				width: 750px;
+				position: absolute;
+				margin: auto;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				border-radius: 10px;
+				align-items: center;
+}
+
+.center h1 {
+				text-align: center;
+}
+
+.center form {
+				border: 1px;
+}
+
+.center input[type=text], input[type=email], input[type=password] {
+				border: none;
+				background-color: #f2f2f2;
+				border-bottom: 2px solid silver;
+				height: 40px;
+				width: 40%;
+				padding: 0 5px;
+				outline: none;
+}
+
+.main {
+				margin-left: 45px;
+}
+
+.center input[type=checkbox] {
+				text-align: left;
+}
+
+
+.center input[type=submit] {
+	    
+				border-radius: 15px;
+				outline: none;
+				height: 50px;
+				width: 100%;
+				align-items: center;
+				text-align: center;
+				margin: auto;
+				background: linear-gradient(120deg, #2980b9, #8e44ad);
+				font-weight: 500;
+				font-size: 20;
+}
+
+.center input[type=text]:focus {
+				width: 50%;
+				height: 60px;
+				
+				
+}
+
+.center input[type=submit]:hover {
+				outline: none;
+				background: linear-gradient(120deg, #8e44ad, #2980b9);
+}
